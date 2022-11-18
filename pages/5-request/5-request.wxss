@@ -1,0 +1,9 @@
+/* pages/5-request/5-request.wxss */
+.item image{
+  width: 200rpx;
+  float: left;
+}
+.item{
+  clear: both;
+  padding: 10rpx;
+}

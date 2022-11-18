@@ -1,0 +1,8 @@
+/* pages/2-hightlight/2-hightlight.wxss */
+.list{
+  display: flex;
+  justify-content: space-around;
+}
+.active{
+  color: red;
+}

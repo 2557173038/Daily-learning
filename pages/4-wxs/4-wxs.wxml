@@ -1,0 +1,14 @@
+<!--pages/4-wxs/4-wxs.wxml-->
+<wxs src="./date.wxs" module="listFn" />
+<!-- <wxs src="./date.wxs" module="handleDate" /> -->
+
+<!-- <text>{{handleDate(startTime)}}</text> -->
+
+<view>
+  <input type="text" bindinput="handleInput"/>
+  <view wx:for="{{listFn(datalist,mytext)}}" wx:key="index">
+{{item}}
+</view>
+</view>
+
+

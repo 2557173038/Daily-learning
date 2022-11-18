@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/9-othercomponent/9-othercomponent",
+    "pages/home/home",
+    "pages/center/center"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffc0cb",
+    "navigationBarTitleText": "花花酱",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+ "tabBar": {
+   "list": [
+     {
+     "pagePath": "pages/9-othercomponent/9-othercomponent",
+     "text": "测试",
+     "iconPath": "images/camera.png",
+     "selectedIconPath": "images/camera_light.png"
+   },
+   {
+    "pagePath": "pages/home/home",
+    "text": "首页",
+    "iconPath": "images/camera.png",
+    "selectedIconPath": "images/camera_light.png"
+  },
+  {
+    "pagePath": "pages/center/center",
+    "text": "我的",
+    "iconPath": "images/camera.png",
+    "selectedIconPath": "images/camera_light.png"
+  }
+  ]
+ },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

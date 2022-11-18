@@ -1,0 +1,12 @@
+<!--pages/1-todulist/1-todulist.wxml-->
+
+<view class="myinput">
+  <input type="text" bindinput="handleInput" value="{{myValue}}"/>
+  <button size="mini" bindtap="handleAdd">add</button>
+</view>
+<view  wx:if="{{list.length>0}}">
+<view wx:for="{{list}}" wx:key="index" class="list">
+    {{item}} <button type="warn" size="mini" bindtap="handleDel" data-myid="{{index}}">删除</button>
+  </view>
+</view>
+  <view wx:else>空空如也</view>

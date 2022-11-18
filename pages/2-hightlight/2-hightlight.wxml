@@ -1,0 +1,7 @@
+<!--pages/2-hightlight/2-hightlight.wxml-->
+<view class="list">
+  <view wx:for="{{datalist}}" wx:key="index" class="{{id===index?'active':''}}" bindtap="handleClass" data-myid="{{index}}">
+  <text> {{item}}</text>
+   
+  </view>
+</view>

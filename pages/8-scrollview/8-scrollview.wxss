@@ -1,0 +1,17 @@
+/* pages/8-scrollview/8-scrollview.wxss */
+.box{
+  height: 300px;
+}
+.item{
+  height: 300px;
+}
+.item_cow{
+height: 300px;
+width: 200px;
+flex-shrink: 0;
+}
+.box1{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}

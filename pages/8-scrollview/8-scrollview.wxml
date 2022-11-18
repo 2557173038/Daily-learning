@@ -1,0 +1,17 @@
+<!--pages/8-scrollview/8-scrollview.wxml-->
+<!-- <view style="height: 200px; background-color: gold;">大轮播</view> -->
+<view>水平方向</view>
+<scroll-view class="box1" scroll-x="{{true}}" 	enable-flex="{{true}}" bindscrolltolower="handlescrolltolower">
+  <view class="item_cow">aaaa</view>
+  <view class="item_cow">bbbb</view>
+  <view class="item_cow">cccc</view>
+  <view class="item_cow">dddd</view>
+</scroll-view>
+<view>垂直方向</view>
+
+<scroll-view class="box" scroll-y="{{true}}" bindscrolltolower="handlescrolltolower" 	refresher-enabled="{{true}}" 	bindrefresherrefresh="handlerefresherrefresh" refresher-triggered="{{isRefresh}}">
+  <view class="item">1111111111111</view> 
+  <view class="item">2222222222222222</view> 
+  <view class="item">3333333333333</view> 
+
+</scroll-view>

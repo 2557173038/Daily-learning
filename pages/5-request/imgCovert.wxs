@@ -1,0 +1,4 @@
+function imgConvert(img){
+  return img.replace("/w.h","")+'imageMogr2/thumbnail/2500x2500%3E'
+}
+module.exports=imgConvert
