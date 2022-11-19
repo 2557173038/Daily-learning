@@ -8,7 +8,7 @@
   <view>{{item.name}}</view>
   <view>价格:￥{{item.price}}</view>
 </view>
-<view>{{item.number}}</view>
+<view>{{item.number}}1</view>
 
 </view>
 
