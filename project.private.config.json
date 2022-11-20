@@ -14,6 +14,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/11-slot/11-slot",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

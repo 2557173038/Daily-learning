@@ -1,0 +1,5 @@
+/* components/topheader/topheader.wxss */
+.box{
+  display: flex;
+  justify-content: space-around;
+}

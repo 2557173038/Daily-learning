@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+   "top-header":"../../components/topheader/topheader",
+   "footer":"../../components/footer/footer"
+  }
+}
