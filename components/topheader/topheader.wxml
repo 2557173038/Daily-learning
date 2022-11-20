@@ -1,6 +1,6 @@
 <!--components/topheader/topheader.wxml-->
 <view class="box">
-<slot name="left"></slot>
+<button slot="left" bindtap="handle6" >返回</button>
 <view>opheader</view>
-<slot name="right"></slot>
+<button slot="right">首页</button>
 </view>

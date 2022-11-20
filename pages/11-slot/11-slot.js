@@ -7,9 +7,9 @@ Page({
   data: {
     isShow:false
   },
-  footerColor(){
+  handleSlot(){
     this.setData({
-    isShow:!this.data.isShow
+      isShow:!this.data.isShow
     })
   },
   /**
