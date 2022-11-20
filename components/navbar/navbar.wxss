@@ -1,0 +1,13 @@
+/* components/nacbar/navbar.wxss */
+.box{
+  display: flex;
+  justify-content: space-around;
+}
+.item{
+  height: 50px;
+  line-height: 50px;
+}
+.active{
+  color:red;
+  border-bottom: 1px solid red;
+}

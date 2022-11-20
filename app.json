@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/9-othercomponent/9-othercomponent",
+    "pages/10-selfComponent/10-selfComponent",
     "pages/home/home",
     "pages/center/center"
   ],
@@ -14,7 +14,7 @@
  "tabBar": {
    "list": [
      {
-     "pagePath": "pages/9-othercomponent/9-othercomponent",
+     "pagePath": "pages/10-selfComponent/10-selfComponent",
      "text": "测试",
      "iconPath": "images/camera.png",
      "selectedIconPath": "images/camera_light.png"
