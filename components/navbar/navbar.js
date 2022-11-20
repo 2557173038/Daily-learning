@@ -28,10 +28,11 @@ Component({
    */
   methods: {
     handleClick(evt) {
-      console.log(evt.currentTarget.dataset.index)
-      this.setData({
-        current: evt.currentTarget.dataset.index
-      })
+      // console.log(evt.currentTarget.dataset.index)
+      // this.setData({
+      //   current: evt.currentTarget.dataset.index
+      // })
+      this.triggerEvent("ParentEvent",evt.currentTarget.dataset.index)//触发父事件,后者传参
     },
   }
 })

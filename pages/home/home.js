@@ -68,9 +68,15 @@ Page({
 
   },
   handleChange(evt){
-    console.log(evt.detail.current)
+    // console.log(evt.detail.current)
   this.setData({
     current:evt.detail.current
   })
+  },
+  handleEvent(evt){
+    // console.log("父组件定义",evt.detail)
+    this.setData({
+      current:evt.detail
+    })
   }
 })
