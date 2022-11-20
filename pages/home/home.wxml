@@ -1,4 +1,10 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
-<navbar></navbar>
+<navbar list="{{cateItem}}" current="{{current}}"></navbar>
 
+<swiper bindchange="handleChange">
+  <swiper-item wx:for="{{cateList}}" wx:key="index">
+  {{item}}
+  </swiper-item>
+</swiper>
+{{current}}

@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
+    cateItem:['衣服','裤子','帽子'],
 
+    cateList:['衣服数据','裤子数据','帽子数据'],
+
+    current:0
   },
 
   /**
@@ -62,5 +66,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  handleChange(evt){
+    console.log(evt.detail.current)
+  this.setData({
+    current:evt.detail.current
+  })
   }
 })
