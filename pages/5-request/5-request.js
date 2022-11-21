@@ -32,7 +32,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
   },
 
   /**
@@ -46,14 +45,15 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    this.handleAjax()
+    console.log("show")
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide() {
-
+    console.log("hide")
   },
 
   /**
