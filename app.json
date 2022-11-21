@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/11-slot/11-slot",
+    "pages/12-lifecycle/12-lifecycle",
     "pages/home/home",
     "pages/center/center"
   ],
@@ -14,7 +14,7 @@
  "tabBar": {
    "list": [
      {
-     "pagePath": "pages/11-slot/11-slot",
+     "pagePath": "pages/12-lifecycle/12-lifecycle",
      "text": "测试",
      "iconPath": "images/camera.png",
      "selectedIconPath": "images/camera_light.png"

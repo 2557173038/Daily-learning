@@ -1,0 +1,2 @@
+<!--components/count/count.wxml-->
+{{count}}
